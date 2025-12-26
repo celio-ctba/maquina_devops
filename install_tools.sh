@@ -80,7 +80,7 @@ echo "Folders created at ~/devops/"
 #8. Instale o Terraform e a AWS CLI
 echo "Installing Terraform..."
 if ! command -v terraform &> /dev/null; then
-    wget -q https://releases.hashicorp.com/terraform/1.8.3/terraform_1.8.3_linux_amd64.zip -O terraform.zip
+    wget -q https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_linux_amd64.zip -O terraform.zip
     unzip terraform.zip
     sudo mv terraform /usr/local/bin/
     rm terraform.zip
